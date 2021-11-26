@@ -5,7 +5,7 @@ import HomePage from './pages/HomePage.vue'
 import AboutPage from './pages/AboutPage.vue'
 
 const router = createRouter({
-  history: createWebHistory('/admin'),
+  history: createWebHistory('/admin/'),
   routes: [
     {path: '/', component: HomePage},
     {path: '/about', component: AboutPage},
